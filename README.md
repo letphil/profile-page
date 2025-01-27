@@ -1,4 +1,4 @@
-### 2-Hour Lesson Plan: Basics of HTML, CSS, and JavaScript
+### Basics of HTML, CSS, and JavaScript : Profile Page
 
 **Objective:** Introduce students to basic HTML, CSS, and JavaScript concepts and help them apply their knowledge by building a simple project by the end of the lesson.
 
