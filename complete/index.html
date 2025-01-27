@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Profile</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <style>
+      .container {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        height: 100vh;
+      }
+
+      .permanent-marker-regular {
+        font-family: "Permanent Marker", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .left {
+        /* background-color: lightblue; */
+        padding: 20px;
+        flex: 1;
+      }
+
+      .right {
+        background-color: beige;
+        padding: 20px;
+        flex: 3;
+      }
+
+      .profile-picture {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-right: 20px;
+      }
+
+      .picture-section {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        /* border: 1px solid black; */
+      }
+
+      .about-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0); /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+      }
+
+      /* Modal Content/Box */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+      }
+
+      /* The Close Button */
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 600px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="picture-section">
+          <img
+            src="https://yt3.ggpht.com/o_-GrwynOVO0bARViLP9_nbhhs8ed_6lA9oZbGEUJF4nUCugO6AV34FuS7ymSQGXetBJ5kNoHg=s88-c-k-c0x00ffffff-no-rj"
+            alt="profile picture"
+            class="profile-picture"
+          />
+          <div>
+            <p class="permanent-marker-regular">Phil Choi</p>
+            <p class="permanent-marker-regular">Software Developer</p>
+          </div>
+        </div>
+        <div class="about-section">
+          <div>
+            <p class="permanent-marker-regular">
+              My name is Phil Choi and am a passionate software developer. I
+              like to learn new things and build cool stuff.
+            </p>
+          </div>
+        </div>
+        <div class="contact-section">
+          <p class="permanent-marker-regular">Contact me:</p>
+          <p class="permanent-marker-regular">
+            Email:
+            <a href="mailto:letphil.contact@gmail.com"
+              >letphil.contact@gmail.com</a
+            >
+          </p>
+          <p class="permanent-marker-regular">
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/phil-choi" target="_blank"
+              >https://www.linkedin.com/in/phillip-choi-aba95a141/</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <h1 class="permanent-marker-regular">Projects</h1>
+        <ul>
+          <li class="permanent-marker-regular">Project 1</li>
+          <li class="permanent-marker-regular">Project 2</li>
+          <li class="permanent-marker-regular">Project 3</li>
+        </ul>
+
+        <h1 class="permanent-marker-regular">Skills</h1>
+        <ul>
+          <li class="permanent-marker-regular">Skill 1</li>
+          <li class="permanent-marker-regular">Skill 2</li>
+          <li class="permanent-marker-regular">Skill 3</li>
+        </ul>
+
+        <h1 class="permanent-marker-regular">Experience</h1>
+        <ul>
+          <li class="permanent-marker-regular">Experience 1</li>
+          <li class="permanent-marker-regular">Experience 2</li>
+          <li class="permanent-marker-regular">Experience 3</li>
+        </ul>
+      </div>
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
