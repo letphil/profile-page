@@ -6,7 +6,6 @@
 
 #### **1. Introduction (10 minutes)**
 
-- **Goal:** Set the stage for the session and introduce the purpose of the technologies.
 
   - **What is HTML?**
 
