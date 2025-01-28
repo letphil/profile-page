@@ -229,8 +229,8 @@
 
 Encourage students to share their projects or upload them to a GitHub repository.
 
-<!-- variable and file naming convention -->
-<!--
+## variable and file naming convention
+
 if you choose one. stick to that one in current project
 
 snake_case -> best_variable
@@ -250,14 +250,10 @@ LANGUAGE = ["en", "ko", "es"];
 extras
 starting variable with underscore usualy means throw away variable taht wil be used only once
 const randomUsers = []
-const _randomUsers = [...randomUsers];
+const \_randomUsers = [...randomUsers];
 
 later in typescript interface will always start with I
 IRandomUser {
 }
 
 type varible is always done pascal cased
-
-
-
- -->
