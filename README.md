@@ -6,26 +6,25 @@
 
 #### **1. Introduction (10 minutes)**
 
+- **What is HTML?**
 
-  - **What is HTML?**
+  - Stands for HyperText Markup Language.
+  - Defines the structure of a webpage using elements enclosed in tags (e.g., `<h1>`, `<p>`).
+  - Example: Think of HTML as the "skeleton" of a website.
 
-    - Stands for HyperText Markup Language.
-    - Defines the structure of a webpage using elements enclosed in tags (e.g., `<h1>`, `<p>`).
-    - Example: Think of HTML as the "skeleton" of a website.
+- **What is CSS?**
 
-  - **What is CSS?**
+  - Stands for Cascading Style Sheets.
+  - Adds style to the webpage, such as colors, layouts, and fonts.
+  - Example: Think of CSS as the "skin and clothes" that make the skeleton visually appealing.
 
-    - Stands for Cascading Style Sheets.
-    - Adds style to the webpage, such as colors, layouts, and fonts.
-    - Example: Think of CSS as the "skin and clothes" that make the skeleton visually appealing.
+- **What is JavaScript?**
 
-  - **What is JavaScript?**
+  - A programming language that makes the webpage interactive.
+  - Example: JavaScript is the "brain" that allows the webpage to respond to user actions (e.g., clicking a button).
 
-    - A programming language that makes the webpage interactive.
-    - Example: JavaScript is the "brain" that allows the webpage to respond to user actions (e.g., clicking a button).
-
-  - **What Will We Build Today?**
-    - Students will create a simple **Personal Profile Page** featuring their name, a short bio, and a button that shows a greeting message when clicked.
+- **What Will We Build Today?**
+  - Students will create a simple **Personal Profile Page** featuring their name, a short bio, and a button that shows a greeting message when clicked.
 
 ---
 
@@ -229,3 +228,36 @@
     - When the button is clicked, display a message (e.g., "I hope you enjoyed learning about my hobby!").
 
 Encourage students to share their projects or upload them to a GitHub repository.
+
+<!-- variable and file naming convention -->
+<!--
+if you choose one. stick to that one in current project
+
+snake_case -> best_variable
+used alot in python
+
+camelCase -> bestVariable
+use a lot in javascript
+
+PascalCase -> BestVariable
+used when naming classes in python or javascript or any other language
+
+SCREAMING_CASE -> BEST_VARIABLE
+used when naming a constant variable tha will not change througout your program
+SERVER_URL = "http://api.something.com";
+LANGUAGE = ["en", "ko", "es"];
+
+extras
+starting variable with underscore usualy means throw away variable taht wil be used only once
+const randomUsers = []
+const _randomUsers = [...randomUsers];
+
+later in typescript interface will always start with I
+IRandomUser {
+}
+
+type varible is always done pascal cased
+
+
+
+ -->

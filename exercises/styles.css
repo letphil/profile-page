@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #5b6660c3;
   color: #333;
   text-align: center;
   padding: 20px;
@@ -14,5 +14,5 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #0056b3;
+  background-color: #b3ad00;
 }

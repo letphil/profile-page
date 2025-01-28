@@ -2,10 +2,21 @@
 <html>
   <head>
     <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>Welcome to My Profile</h1>
     <p>Hello! My name is [Your Name].</p>
     <button>Click Me</button>
+    <script src="./mouse-event-handler.js"></script>
+    <script>
+      document
+        .querySelector("button")
+        .addEventListener("mouseenter", buttonColorMouseEventHandler);
+
+      document
+        .querySelector("button")
+        .addEventListener("mouseleave", buttonColorMouseEventHandler);
+    </script>
   </body>
 </html>
