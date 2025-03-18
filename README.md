@@ -1,15 +1,15 @@
-### Basics of HTML, CSS, and JavaScript : Profile Page
+### Basics of HTML, CSS, and JS : Profile Page
 
 **Objective:** Introduce students to basic HTML, CSS, and JavaScript concepts and help them apply their knowledge by building a simple project by the end of the lesson.
 
 ---
 
-#### **1. Introduction (10 minutes)**
+#### **1. Introduction**
 
 - **What is HTML?**
 
   - Stands for HyperText Markup Language.
-  - Defines the structure of a webpage using elements enclosed in tags (e.g., `<h1>`, `<p>`).
+  - Defines the structure of a webpage using elements enclosed in tags (e.g., `<h1>content</h1>`, `<p>paragraph</p>`).
   - Example: Think of HTML as the "skeleton" of a website.
 
 - **What is CSS?**
@@ -28,7 +28,7 @@
 
 ---
 
-#### **2. HTML Basics (20 minutes)**
+#### **2. HTML Basics**
 
 - **What is HTML and How It Works?**
 
@@ -81,7 +81,7 @@
 
 ---
 
-#### **3. CSS Basics (20 minutes)**
+#### **3. CSS Basics**
 
 - **What is CSS and Its Purpose?**
 
@@ -135,7 +135,7 @@
 
 ---
 
-#### **4. JavaScript Basics (30 minutes)**
+#### **4. JavaScript Basics**
 
 - **What is JavaScript?**
 
@@ -170,7 +170,7 @@
 
 ---
 
-#### **5. Build a Mini-Project (30 minutes)**
+#### **5. Build a Mini-Project**
 
 - **Project Goal:** Create a simple **Personal Profile Page**.
 - **Features:**
@@ -201,7 +201,7 @@
 
 ---
 
-#### **6. Review and Q&A (10 minutes)**
+#### **6. Review and Q&A**
 
 - Recap what they learned:
   - **HTML:** Defines the structure.
